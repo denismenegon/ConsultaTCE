@@ -16,6 +16,21 @@ O objetivo principal é processar uma lista de entidades/usuários, realizar as 
 * **Modo Background:** Opção para executar a automação sem exibir a janela do navegador (`headless` é ativado se o checkbox for marcado).
 * **Registro de Dados:** Salva logs (`dados_pacotes_...`) e atualiza o arquivo Excel de entrada com os resultados da consulta.
 
+
+## 📄  Estrutura do Arquivo de Entrada
+![Visualizar Documentos Públicos](tela_03.png)
+
+
+🖥️ UI - Telas do Aplicativo
+A interface gráfica de usuário (GUI) é construída com Tkinter e apresenta os seguintes elementos para a consulta ao TCE:
+
+Tela de Seleção e Configuração
+Esta tela inicial permite ao usuário carregar o arquivo de entrada com os dados de consulta e definir os parâmetros globais, além dos filtros essenciais de Entidade, Documento e Datas de Referência.
+
+![Visualizar Documentos Públicos](tela_01.png)
+![Posição Dados Transmitidos](tela_02.png)
+
+
 ## ⚙️ Pré-requisitos
 
 Para rodar este projeto, você precisará ter instalado:
@@ -23,6 +38,4 @@ Para rodar este projeto, você precisará ter instalado:
 1.  **Python 3.x**
 2.  **Navegadores suportados pelo Playwright** (Chromium é o padrão, mas o código também menciona Edge e Firefox).
 
-![Visualizar Documentos Públicos](tela_01.png)
 
-![Posição Dados Transmitidos](tela_02.png)
